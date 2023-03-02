@@ -1,3 +1,5 @@
+import 'package:bibliotecamobile/core/routes/app_pages.dart';
+import 'package:bibliotecamobile/core/routes/app_routes.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'injection_container.dart' as di;
@@ -26,6 +28,8 @@ class MyApp extends StatelessWidget {
         colorScheme:
             ColorScheme.fromSwatch().copyWith(secondary: Colors.green.shade600),
       ),
+      initialRoute: AppRoutes.SPLASH,
+      routes: AppPages.routes,
       home: const MyWidget(),
     );
   }
