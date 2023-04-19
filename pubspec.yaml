@@ -22,13 +22,15 @@ dependencies:
   dartz: ^0.8.9
   # Remote API
   data_connection_checker: ^0.3.4
-  http: ^0.12.0+3
+  http: ^0.13.3
+  http_interceptor: ^1.0.2 
   # Local cache
   shared_preferences: ^0.5.6
   # Service locator
   flutter_localizations: 
     sdk: flutter
   intl: any
+  
 
 dev_dependencies:
   flutter_test:
@@ -38,3 +40,36 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   generate: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family: inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+        - asset: assets/fonts/inter/Inter-Black.ttf
+        - asset: assets/fonts/inter/Inter-Bold.ttf
+        - asset: assets/fonts/inter/Inter-ExtraBold.ttf
+        - asset: assets/fonts/inter/Inter-ExtraLight.ttf
+        - asset: assets/fonts/inter/Inter-Light.ttf
+        - asset: assets/fonts/inter/Inter-Medium.ttf
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+        - asset: assets/fonts/inter/Inter-SemiBold.ttf
+        - asset: assets/fonts/inter/Inter-Thin.ttf
+
+    - family: roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+        - asset: assets/fonts/roboto/Roboto-BlackItalic.ttf
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/roboto/Roboto-BoldItalic.ttf
+        - asset: assets/fonts/roboto/Roboto-Italic.ttf
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+        - asset: assets/fonts/roboto/Roboto-LightItalic.ttf
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+        - asset: assets/fonts/roboto/Roboto-MediumItalic.ttf
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/roboto/Roboto-Thin.ttf
+        - asset: assets/fonts/roboto/Roboto-ThinItalic.ttf
