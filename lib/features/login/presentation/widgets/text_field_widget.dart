@@ -10,7 +10,7 @@ class TextFieldWidget extends StatelessWidget {
   final Function()? toggle;
   final TextEditingController? controller;
   final Function(String)? onChanged;
-  final bool showSuffixIcon;
+  final bool? showSuffixIcon;
   final String? initialValue;
   final bool? enabled;
 
@@ -26,7 +26,7 @@ class TextFieldWidget extends StatelessWidget {
     this.toggle,
     this.controller,
     this.onChanged,
-    required this.showSuffixIcon,
+    this.showSuffixIcon,
     this.enabled = true,
   });
 
